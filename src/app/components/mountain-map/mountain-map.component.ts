@@ -4,7 +4,7 @@ import {Map, View} from 'ol';
 import TileLayer from 'ol/layer/Tile';
 import OSM from 'ol/source/OSM';
 import {fromLonLat} from 'ol/proj';
-import { MountainService } from 'src/app/services/mountain.service';
+import { MountainService } from '../../services/mountain.service';
 import { tap, filter } from 'rxjs/operators';
 import {Fill, RegularShape, Stroke, Style} from 'ol/style';
 import Draw from 'ol/interaction/Draw';

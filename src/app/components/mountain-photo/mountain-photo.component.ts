@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { IMountain } from 'src/app/interfaces/mountain';
-import { MountainService } from 'src/app/services/mountain.service';
+import { IMountain } from '../../interfaces/mountain';
+import { MountainService } from '../../services/mountain.service';
 import { tap } from 'rxjs/operators';
 
 @Component({
