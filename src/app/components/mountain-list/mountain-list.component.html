@@ -1,0 +1,8 @@
+<ul class="nav nav-pills flex-column">
+  <li class="nav-item" *ngFor="let mountain of mountainService.models">
+    <a class="nav-link" [class.active]="mountain === currentMountain" href="#" (click)="mountainService.activeModel$.next(mountain)">
+      {{mountain.Mountain_Peak}}
+      <small>{{mountain.Elevation_ft}} ft</small>
+    </a>
+  </li>
+</ul>
